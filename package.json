@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "bun --watch index.ts",
     "start-js": "bun run ./dist/index.js",
-    "start-win": "bun run ./dist/index.exe",
-    "start-linux": "bun run ./dist/index",
+    "start-win": "./dist/index.exe",
+    "start-linux": "./dist/index",
     "build-js": "bun build --outdir ./dist ./index.ts",
     "build-win": "bun build --compile --target=bun-win-x64 --outfile ./dist/index.exe ./index.ts",
     "build-linux": "bun build --compile --target=bun-linux-x64 --outfile ./dist/index ./index.ts"
